@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: rahulshettyacademy.tests.SubmitOrderTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 5.383 s <<< FAILURE! - in rahulshettyacademy.tests.SubmitOrderTest
+launchApplication(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 3.804 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59829/devtools/browser/915c93d6-bbc7-4ef9-bc3c-c23366cfe939
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-CEPR6TFE', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: driver.version: ChromeDriver
+
+tearDown(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 3.805 s  <<< FAILURE!
+java.lang.NullPointerException
+
+launchApplication(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 5.228 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59846/devtools/browser/ae6713a6-dfc4-4054-864c-6c91acb9b0af
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-CEPR6TFE', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: driver.version: ChromeDriver
+
+tearDown(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 5.229 s  <<< FAILURE!
+java.lang.NullPointerException
+
