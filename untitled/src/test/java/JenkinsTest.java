@@ -29,7 +29,7 @@ public class JenkinsTest{
         // get the actual value of the title
         actualTitle = driver.getTitle();
 
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         /*
          * compare the actual title of the page with the expected one and print
          * the result as "Passed" or "Failed"
